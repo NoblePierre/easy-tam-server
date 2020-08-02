@@ -1,0 +1,41 @@
+{
+    "tsimporter.preferRelative": true,
+    "typescript.extension.sortImports.maxNamedImportsInSingleLine": 5,
+    "typescript.extension.sortImports.pathSortOrder": [
+        "package",
+        "relativeDownLevel",
+        "relativeUpLevel"
+    ],
+    "typescript.extension.sortImports.sortMethod": "path",
+    "workbench.colorCustomizations": {
+        "statusBar.border": "#1e2152",
+        "statusBar.debuggingBackground": "#2c3077",
+        "activityBar.background": "#2c3077",
+        "activityBar.activeBackground": "#2c3077",
+        "activityBar.activeBorder": "#ba454b",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#ba454b",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "titleBar.activeBackground": "#1e2152",
+        "titleBar.inactiveBackground": "#1e215299",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.background": "#1e2152",
+        "statusBarItem.hoverBackground": "#2c3077",
+        "statusBar.foreground": "#e7e7e7",
+        "titleBar.border": "#1e2152"
+    },
+    "peacock.color": "#1e2152",
+    "files.exclude": {
+        "**/dist": true,
+        "**/dist/*/**": true,
+    },
+    "files.watcherExclude": {
+        "**/dist/*/**": true
+    },
+    "search.exclude": {
+        "**/dist": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
